@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 44" fill="none">
+  <g transform="translate(4, 4)">
+    <rect width="36" height="36" rx="10" fill="#1B5E20"/>
+    <path d="M18 10C18 10 12 16 12 22C12 25.3137 14.6863 28 18 28C21.3137 28 24 25.3137 24 22C24 16 18 10 18 10Z" fill="#A3E635"/>
+    <path d="M18 14V26M18 19L22 16M18 22L14 19" stroke="#1B5E20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="27" cy="11" r="3" fill="#F59E0B"/>
+  </g>
+  <text x="48" y="27" font-family="'Plus Jakarta Sans', Inter, sans-serif" font-weight="800" font-size="20" fill="#1B5E20" letter-spacing="-0.5px">Agri<tspan fill="#2E7D32">Share</tspan></text>
+  <circle cx="146" cy="19" r="3.5" fill="#16A34A"/>
+</svg>

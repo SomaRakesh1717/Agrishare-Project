@@ -1,0 +1,619 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;family=Plus+Jakarta+Sans:wght@600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "surface-container": "#e7eeff", "secondary": "#8a510c", "surface-dim": "#d0daf0", "error-container": "#ffdad6", "background": "#f9f9ff", "on-surface": "#121c2c", "surface-variant": "#d9e3f9", "surface-container-lowest": "#ffffff", "on-background": "#121c2c", "on-tertiary-fixed-variant": "#175121", "surface-container-highest": "#d9e3f9", "primary": "#00450d", "surface-container-high": "#dee8ff", "surface-bright": "#f9f9ff", "secondary-fixed-dim": "#ffb874", "inverse-primary": "#91d78a", "on-primary-fixed": "#002203", "on-primary": "#ffffff", "tertiary": "#064516", "outline-variant": "#c0c9bb", "on-surface-variant": "#41493e", "on-error": "#ffffff", "primary-container": "#1b5e20", "on-primary-fixed-variant": "#0c5216", "on-secondary-fixed-variant": "#6b3b00", "tertiary-container": "#245d2b", "inverse-surface": "#273141", "tertiary-fixed": "#b3f2b1", "inverse-on-surface": "#ebf1ff", "on-secondary-fixed": "#2d1600", "on-secondary": "#ffffff", "primary-fixed": "#acf4a4", "surface": "#f9f9ff", "primary-fixed-dim": "#91d78a", "surface-container-low": "#f0f3ff", "secondary-fixed": "#ffdcbf", "secondary-container": "#fdb167", "on-error-container": "#93000a", "on-secondary-container": "#764200", "error": "#ba1a1a", "on-tertiary-fixed": "#002106", "surface-tint": "#2a6b2c", "on-primary-container": "#90d689", "on-tertiary-container": "#97d495", "on-tertiary": "#ffffff", "tertiary-fixed-dim": "#98d597", "outline": "#717a6d" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "gutter": "1.5rem", "space-lg": "1.5rem", "space-sm": "0.5rem", "gutter-mobile": "1rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "margin": "2rem", "margin-mobile": "1rem", "space-md": "1rem" }, fontFamily: { "title-md": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "label-sm": ["Inter"], "headline-xl-mobile": ["Plus Jakarta Sans"], "body-md": ["Inter"], "label-md": ["Inter"], "body-sm": ["Inter"], "display-lg-mobile": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "body-lg": ["Inter"], "headline-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "label-lg": ["Inter"] }, fontSize: { "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }], "headline-xl": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "headline-xl-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }], "display-lg-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "800" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }] } } } };</script></head><body class="bg-surface font-body-md text-on-surface"><header class="fixed top-0 left-0 right-0 w-full z-50 bg-surface/90 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1440px] mx-auto px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg shrink-0"><div class="flex items-center gap-space-sm"><img alt="Brand logo. - Primary color: #1b5e20
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1V8_kEDh7Tvhd481lRW203GIdijKLtbe-NNM0InaHG3L4X71lBT65v-0F_nfv4mb-lOzY9735vUKkZylye1KnJBv8idKVu8oefc-5jcz7JJ9vTueZtMKRcXvyFaLyVuoSvWXiCPhlOVFKxQOQ3WsgHGvbYNJnmJ1431hgTHAxUc1K4tm4jSDASVCVJvoYtKfcEA86_G-HnZMCSudAI4apqwkhRK5rZrIJMT1mLmdf0YE5zzW1Y7C4UWjDs"><div class="flex flex-col"><span class="font-title-md text-title-md text-primary tracking-tight">AgriRent</span><span class="font-label-sm text-label-sm text-secondary">Share. Rent. Grow.</span></div></div><div class="hidden xl:flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container text-on-surface-variant"><span class="material-symbols-outlined text-[18px] text-primary">location_on</span><span class="font-label-md text-label-md">Nizamabad, Telangana</span></div></div><nav class="hidden lg:flex items-center gap-space-xs shrink-0" data-active-classes="bg-primary-container text-on-primary-container font-title-md rounded-lg"><a class="px-3 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="home" href="#">Home</a><a aria-current="page" class="px-3 py-2 transition-colors bg-primary-container text-on-primary-container font-title-md rounded-lg" data-path="machinery" href="#">Machinery</a><a class="px-3 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="share" href="#">Share</a><a class="px-3 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="labour" href="#">Labour</a><a class="px-3 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="seeds" href="#">Seeds</a><a class="px-3 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="ai-assistant" href="#">AI Assistant</a><a class="px-3 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="nearby" href="#">Nearby</a><a class="px-3 py-2 rounded-lg font-label-lg text-label-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" data-path="bookings" href="#">My Bookings</a></nav><div class="flex items-center gap-space-md shrink-0"><div class="hidden sm:flex items-center px-space-sm py-1 rounded-full bg-surface-container-low font-label-sm text-label-sm text-on-surface-variant"><span class="cursor-pointer font-bold text-primary">EN</span><span class="mx-1 text-outline-variant">|</span><span class="cursor-pointer hover:text-primary transition-colors">తె</span><span class="mx-1 text-outline-variant">|</span><span class="cursor-pointer hover:text-primary transition-colors">हिन्दी</span></div><button aria-label="Notifications" class="relative p-2 rounded-full text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[24px]">notifications</span><span class="absolute top-1 right-1 w-4 h-4 rounded-full bg-error text-on-error font-label-sm text-[10px] leading-[16px] text-center font-bold">3</span></button><div class="flex items-center gap-space-sm pl-space-xs py-1 pr-3 rounded-full bg-surface-container hover:bg-surface-container-high transition-colors cursor-pointer"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VYWLdd9FkMcyuKctt9ECIF_ok8Um86skhHwHpbDxz9SWCKbhtQoA7jUPZt5v9yJzzoxfY1WtsZTnbxe2LYfzizCE-LJaQ1y5Pz42LBx24a4sLTN1KiAujfbynYKJ-B9Gg8SfocMDVS4d-lwTTB3QZNF-Qlo3tx_q70g4hhoqbTtbJXc11dw6n0ZKUpAQn6O7ONrPteHBw0EOnkciHGFsJDy3WxUy0_QAk24iIVWf4eRvqn4jhCnfRL8YM"><div class="hidden md:flex flex-col text-left"><span class="font-label-md text-label-md text-on-surface leading-tight">Ramesh Patel</span><span class="font-label-sm text-label-sm text-primary leading-none">Verified Farmer</span></div></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full">
+<!-- Top Context / Breadcrumb Bar -->
+<div class="w-full bg-surface-container-low py-space-sm px-margin">
+<div class="max-w-[1440px] mx-auto flex items-center justify-between">
+<nav class="flex items-center gap-2 font-label-md text-label-md text-on-surface-variant">
+<a class="hover:text-primary transition-colors flex items-center gap-1" href="#">
+<span class="material-symbols-outlined text-[16px]">home</span>
+<span class="">Home</span>
+</a>
+<span class="text-outline-variant">/</span>
+<a class="hover:text-primary transition-colors" href="#">Machinery Rental</a>
+<span class="text-outline-variant">/</span>
+<span class="text-on-surface font-bold">John Deere 5310 4WD</span>
+</nav>
+<div class="hidden md:flex items-center gap-space-sm">
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-primary"><span class="material-symbols-outlined text-[14px]">verified</span> Verified Equipment Pass #TS-AGR-55-901</span>
+<span class="text-on-surface-variant font-label-sm text-label-sm">Updated 4 hours ago</span>
+</div>
+</div>
+</div>
+<!-- Primary Page Body Container -->
+<div class="max-w-[1440px] mx-auto px-margin w-full py-space-lg flex flex-col gap-space-xl">
+<!-- Title & Key Header Badges -->
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex flex-wrap items-center gap-2">
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+            Verified Owner
+          </span>
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+            Instant Book Available
+          </span>
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px] text-primary">pin_drop</span>
+            Nizamabad Central (2.4 km away)
+          </span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">
+          John Deere 5310 <span class="font-headline-lg text-headline-lg text-secondary font-normal">(55 HP • 4WD Heavy Duty Utility)</span>
+</h1>
+</div>
+<div class="flex items-center gap-space-md shrink-0 bg-surface-container-lowest p-space-sm rounded-xl shadow-sm">
+<div class="text-right">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Base Rate</div>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-headline-md text-primary font-bold">₹850</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ hour</span>
+</div>
+</div>
+<div class="h-8 w-px bg-surface-variant"></div>
+<div class="text-right">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Day Lease</div>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-headline-md text-secondary font-bold">₹5,900</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">/ day (8h)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Two-Column Booking & Showcase Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Left Column (8 cols): Visual Gallery, Specs, Owner & Calendar -->
+<div class="lg:col-span-8 flex flex-col gap-space-xl min-w-0">
+<!-- Media Gallery Bento Module -->
+<div class="flex flex-col gap-space-sm">
+<div class="relative w-full h-[420px] md:h-[480px] rounded-xl overflow-hidden shadow-md group">
+<img class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="A modern green John Deere 5310 tractor working vigorously in lush sunlit agricultural farmland in Telangana India, fine dust kicking from large rear tires, deep soil furrows behind it, vivid natural colors, high realism" id="main-preview-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDC6MeiHRRMVImTxXsMNxQ9eCwbcchobIkf04FRlO919yJr0Rj1ljfy-mpnhlWSojogdLIJtSJo6sbp3Oeou9pkkuEbs3ItTWSClYbObNRsqGtgIn-6cg3dcZdLVnX50JFJK01UW2Sg4I5GXAhUVPaBmcVTZ0pCc6-J0Isd7Z_mBBQhZNeMoL9E4Kr-SkyUWNdDg_WpUmDNSe056OlMPHM1M8UUdYcnG34Nv2UtVTs0rWzfYK69qQkY">
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent flex flex-col justify-end p-space-lg">
+<div class="flex flex-wrap items-center gap-2">
+<span class="px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md font-label-md text-label-md text-primary font-bold shadow-sm">
+                  55 HP Turbo Engine
+                </span>
+<span class="px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md font-label-md text-label-md text-on-surface font-semibold shadow-sm">
+                  Dual Clutch Syncromesh
+                </span>
+<span class="px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md font-label-md text-label-md text-on-surface font-semibold shadow-sm">
+                  Heavy 4WD Front Axle
+                </span>
+</div>
+</div>
+<div class="absolute top-space-md right-space-md flex gap-2">
+<button aria-label="Save to favorites" class="p-2 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-on-surface hover:text-error transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[20px]">favorite_border</span>
+</button>
+<button aria-label="Share listing" class="p-2 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-on-surface hover:text-primary transition-colors shadow-sm" type="button">
+<span class="material-symbols-outlined text-[20px]">share</span>
+</button>
+</div>
+</div>
+<!-- Thumbnails Row -->
+<div class="grid grid-cols-4 gap-space-sm">
+<div class="relative h-24 rounded-lg overflow-hidden cursor-pointer shadow-sm border-2 border-primary ring-2 ring-primary/20">
+<img class="w-full h-full object-cover hover:opacity-90 transition-opacity" data-alt="Close up view of the ergonomic operator cabin and steering instrument console of a John Deere 5310 utility tractor, natural field light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLHKyM08uHAe9147qSMenOb7NSw1vX1i9e05mY9nDHPaKDOZZ1vkwhgWhk_ErAq_jT75jTkoRSdP87TmKWgJDwpRhTjk1S316n4W3YMn0qr3CWMk-kBeqLVSvxJ9MDUBEYNytYRQb66H_JzFZIe-0WwciEda5wsyyswryDaf3SRgh-h1mbBJnmDGhzvU-oRG1r2d7EscX0cXhLm1Zn6ou1iCLYFH3j6FkTrpP9p4VTHr9gfuXSE1Tq">
+<span class="absolute bottom-1 left-1 px-1.5 py-0.5 rounded bg-inverse-surface/75 text-inverse-on-surface font-label-sm text-[10px]">Cabin</span>
+</div>
+<div class="relative h-24 rounded-lg overflow-hidden cursor-pointer shadow-sm hover:opacity-90 transition-opacity">
+<img class="w-full h-full object-cover" data-alt="Heavy duty mechanical rear three point linkage and PTO connection shaft on John Deere tractor, grease fittings visible, industrial agriculture machinery" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2RGgUcEMw5qITRes-7NY18Op_a9Se8yQXETP2v6kjlxJI95JxYqWTPSRaccdMn21Fh--JUqfttb1u6IW88BnUFBwGW-wRDX2pEWI0IX0eIIdJuOF9V8-Ssj3shj9iEzSwGD9Fhon8zpUGUOMO9ozX6_zcplcYsMOwnAc5qDe-xF0sQjohP3fPYb73bfPigsf0rpOEQoBtYNNZMXmGU9Y29Rn592767o0KGpcmGqiPwtWmq8-G9ntA">
+<span class="absolute bottom-1 left-1 px-1.5 py-0.5 rounded bg-inverse-surface/75 text-inverse-on-surface font-label-sm text-[10px]">3-Pt Linkage</span>
+</div>
+<div class="relative h-24 rounded-lg overflow-hidden cursor-pointer shadow-sm hover:opacity-90 transition-opacity">
+<img class="w-full h-full object-cover" data-alt="Deep tread chevron radial agriculture tractor tire showing tread depth and durability on loamy soil ground, high contrast" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXy2DlIfoAwncwWhQ2Cr-5QxhSVpQe5mX0-8hsWqF1mLwMOENOWisuP2H1PmnS-JSIqMjoBo5Xp99i3PBEDikoHj7rlWSmETvbnG9R3isaRRlWgNPJE0x3ZFlU2LeumCBZsH626hc5U6Tf4M1UxP4Fma7Wixp_2hYZ9rkfhhCPoqBmIirSOWxxXsgNoJGS1_1EgTCChKP86EA01neZhBpbUVSQ1-D_H7bs7j3DNAuk90sC9xWK0toA">
+<span class="absolute bottom-1 left-1 px-1.5 py-0.5 rounded bg-inverse-surface/75 text-inverse-on-surface font-label-sm text-[10px]">Tread Depth</span>
+</div>
+<div class="relative h-24 rounded-lg overflow-hidden cursor-pointer shadow-sm hover:opacity-90 transition-opacity">
+<img class="w-full h-full object-cover" data-alt="Heavy rotary tiller implement attached to the back of a green tractor ready for soil mulching in dry field conditions" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD424LAqyiYAK8ue9h0Te5miz1cpgX--QGesqOF1AjtL9zkxTd6fBBe13dultLxahY9AQ6eJLK7-IxsS5qC7k0l4C9z22B5nx5QBxWhSAbjkyV2_w1fgyO1IJPd1fZddg_whGplco5bO_klFqLUCtJ23cjlE7eADedDOacOzxJpo7vSnnb09g3pS9I72ZLU1wZbD9htWE4Ea3hcM-xeCBpILsoTpaC8EV2zRUUVGChESWeMjKHrOujZ">
+<span class="absolute bottom-1 left-1 px-1.5 py-0.5 rounded bg-inverse-surface/75 text-inverse-on-surface font-label-sm text-[10px]">Rotary Tiller</span>
+</div>
+</div>
+</div>
+<!-- Specifications & Operational Health Grid -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-variant">
+<h2 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">engineering</span>
+              Equipment Specifications &amp; Telemetry
+            </h2>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/50 px-2 py-1 rounded-full font-bold">
+              Class 4 Heavy Duty
+            </span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Spec Card 1 -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<div class="p-2.5 rounded-lg bg-primary-container text-on-primary-container shrink-0">
+<span class="material-symbols-outlined text-[24px]">speed</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wide">Engine Power</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">55 HP @ 2400 RPM</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">3-Cylinder Turbocharged Diesel with intercooler</span>
+</div>
+</div>
+<!-- Spec Card 2 -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<div class="p-2.5 rounded-lg bg-secondary text-on-secondary shrink-0">
+<span class="material-symbols-outlined text-[24px]">local_gas_station</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wide">Fuel Efficiency</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">~4.8 Litres / Hour</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Under medium-heavy tilling load (68 L Fuel Tank)</span>
+</div>
+</div>
+<!-- Spec Card 3 -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<div class="p-2.5 rounded-lg bg-tertiary-container text-on-tertiary-container shrink-0">
+<span class="material-symbols-outlined text-[24px]">agriculture</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wide">Included Implements</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">Cultivator &amp; PTO Trolley Hook</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Includes 9-tyne duckfoot cultivator &amp; dual hyd valve</span>
+</div>
+</div>
+<!-- Spec Card 4 -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex items-start gap-space-sm">
+<div class="p-2.5 rounded-lg bg-surface-container text-primary shrink-0">
+<span class="material-symbols-outlined text-[24px]">verified_user</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wide">Maintenance Condition</span>
+<span class="font-title-md text-title-md text-primary font-bold">Excellent • 1,420 Certified Hrs</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Full dealer service completed 12 days ago (Hydraulics &amp; Oil)</span>
+</div>
+</div>
+</div>
+<!-- Quick Telemetry Bar -->
+<div class="p-space-md rounded-lg bg-surface-container flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">oil_barrel</span>
+<span class="font-body-sm text-body-sm text-on-surface">Engine Oil Life: <strong>94%</strong></span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">tire_repair</span>
+<span class="font-body-sm text-body-sm text-on-surface">Rear Radial Grip: <strong>88% Remaining</strong></span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">hardware</span>
+<span class="font-body-sm text-body-sm text-on-surface">PTO Output: <strong>49.5 HP Rated</strong></span>
+</div>
+</div>
+</div>
+<!-- Interactive Availability Calendar Section -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-md">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-2 pb-space-sm border-b border-surface-variant">
+<div class="flex flex-col">
+<h2 class="font-headline-sm text-headline-sm text-on-surface flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">calendar_month</span>
+                Harvest Season Availability
+              </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Select an open window for your seasonal land preparation</p>
+</div>
+<!-- Calendar Legend -->
+<div class="flex flex-wrap items-center gap-3">
+<div class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-3 h-3 rounded-full bg-primary-fixed border border-primary"></span>
+<span class="">Available</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-3 h-3 rounded-full bg-primary text-on-primary"></span>
+<span class="">Selected</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-3 h-3 rounded-full bg-surface-variant"></span>
+<span class="">Booked</span>
+</div>
+<div class="flex items-center gap-1.5 font-label-sm text-label-sm text-on-surface-variant">
+<span class="w-3 h-3 rounded-full bg-outline-variant opacity-50"></span>
+<span class="">Unavailable</span>
+</div>
+</div>
+</div>
+<!-- Month Selector Header -->
+<div class="flex items-center justify-between px-space-sm">
+<button aria-label="Previous month" class="p-2 rounded-lg hover:bg-surface-container text-on-surface-variant" type="button">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<div class="font-title-md text-title-md text-on-surface font-bold">
+              October 2026
+            </div>
+<button aria-label="Next month" class="p-2 rounded-lg hover:bg-surface-container text-on-surface-variant" type="button">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+<!-- Calendar Grid Table -->
+<div class="w-full">
+<div class="grid grid-cols-7 gap-1 text-center font-label-sm text-label-sm text-on-surface-variant pb-2 border-b border-surface-variant">
+<span class="">Mon</span><span class="">Tue</span><span class="">Wed</span><span class="">Thu</span><span class="">Fri</span><span class="">Sat</span><span class="">Sun</span>
+</div>
+<div class="grid grid-cols-7 gap-1 pt-2 font-label-md text-label-md text-center">
+<!-- Days row 1 -->
+<span class="py-2.5 text-outline-variant">28</span>
+<span class="py-2.5 text-outline-variant">29</span>
+<span class="py-2.5 text-outline-variant">30</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">1</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">2</span>
+<span class="py-2.5 rounded-lg bg-surface-variant text-on-surface-variant cursor-not-allowed">3</span>
+<span class="py-2.5 rounded-lg bg-surface-variant text-on-surface-variant cursor-not-allowed">4</span>
+<!-- Days row 2 -->
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">5</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">6</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">7</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">8</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">9</span>
+<span class="py-2.5 rounded-lg bg-surface-variant text-on-surface-variant cursor-not-allowed">10</span>
+<span class="py-2.5 rounded-lg bg-surface-variant text-on-surface-variant cursor-not-allowed">11</span>
+<!-- Days row 3 -->
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">12</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">13</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">14</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">15</span>
+<span class="py-2.5 rounded-lg bg-surface-variant text-on-surface-variant cursor-not-allowed">16</span>
+<span class="py-2.5 rounded-lg bg-surface-variant text-on-surface-variant cursor-not-allowed">17</span>
+<span class="py-2.5 rounded-lg bg-surface-variant text-on-surface-variant cursor-not-allowed">18</span>
+<!-- Days row 4 -->
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">19</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">20</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">21</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">22</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">23</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">24</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">25</span>
+<!-- Days row 5 (Selected Window 26-28) -->
+<span class="py-2.5 rounded-l-lg bg-primary text-on-primary font-bold shadow-sm cursor-pointer">26</span>
+<span class="py-2.5 bg-primary text-on-primary font-bold shadow-sm cursor-pointer">27</span>
+<span class="py-2.5 rounded-r-lg bg-primary text-on-primary font-bold shadow-sm cursor-pointer">28</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">29</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">30</span>
+<span class="py-2.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary-fixed/60 cursor-pointer">31</span>
+<span class="py-2.5 text-outline-variant">1</span>
+</div>
+</div>
+<!-- Date Selected Callout Bar -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm p-space-md rounded-lg bg-surface-container-low">
+<div class="flex items-center gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase">Start Date</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">26 Oct 2026 (07:00 AM)</span>
+</div>
+<span class="material-symbols-outlined text-outline-variant">arrow_forward</span>
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block uppercase">End Date</span>
+<span class="font-title-md text-title-md text-on-surface font-bold">28 Oct 2026 (07:00 PM)</span>
+</div>
+</div>
+<div class="px-3 py-1.5 rounded-full bg-primary-container text-on-primary-container font-label-md text-label-md font-bold">
+              3 Active Days • 18 Service Hours
+            </div>
+</div>
+</div>
+<!-- Verified Owner & Hub Location Mosaic Card -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md">
+<!-- Owner Profile (7 cols) -->
+<div class="md:col-span-7 bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between gap-space-md">
+<div>
+<div class="flex items-center justify-between pb-space-sm mb-space-sm border-b border-surface-variant">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Registered Machine Host</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed/60 font-label-sm text-label-sm text-primary font-bold">Verified Owner</span>
+</div>
+<div class="flex items-center gap-space-md">
+<div class="relative">
+<img class="w-16 h-16 rounded-full object-cover shadow-sm" data-alt="Warm portrait of Venkat Rao, a proud middle-aged Indian farmer in traditional attire standing smiling beside his agricultural equipment in Nizamabad" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAujEbRvfU-JzUg_c5aOMksYF93j-JxdOUwDzU8Rof9UgtIjA5Fsbg3ee-bDCbPvJBEwv3aw7UMREj8nxoyCS68foVhhdYxvLbjsZD0O_4Cltb9htQMi-TaK8im1BMMh-UCsf6CS5Jy34CaD1hUa6o0cadwgAFkWRGgESgsvsnKlDDXyNj70Mi2wLjAJnkZOJTSZxCiek9sBMzClR6I4TKmFXFFlS1A5Ca2W1eCxG-UwJKBvJV77Gq2">
+<div class="absolute -bottom-1 -right-1 p-0.5 rounded-full bg-primary text-on-primary text-[14px]">
+<span class="material-symbols-outlined text-[16px] block">verified</span>
+</div>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Venkat Rao</span>
+<span class="inline-flex items-center gap-0.5 text-secondary font-bold font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">star</span> 4.9
+                    </span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kisan ID: <strong>TS-NZB-4412</strong></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">56 completed machinery rentals • Member since 2023</span>
+</div>
+</div>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-center justify-between font-label-sm text-label-sm text-on-surface">
+<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-primary text-[18px]">verified_user</span> Owner &amp; Listing Verified</span>
+<button class="text-primary font-bold hover:underline flex items-center gap-0.5" type="button">
+                Contact Host <span class="material-symbols-outlined text-[14px]">open_in_new</span>
+</button>
+</div>
+</div>
+<!-- Pickup Location Map Card (5 cols) -->
+<div class="md:col-span-5 bg-surface-container-lowest p-space-md rounded-xl shadow-sm flex flex-col gap-space-sm justify-between">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-bold">Depot Location</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Armoor Road Machinery Depot</span>
+</div>
+<span class="px-2 py-1 rounded-full bg-surface-container font-label-sm text-label-sm text-primary font-bold">2.4 km away</span>
+</div>
+<div class="w-full h-32 rounded-lg bg-cover bg-center overflow-hidden relative shadow-sm" data-location="Nizamabad Armoor Road Telangana India">
+<div class="absolute bottom-2 left-2 px-2 py-1 rounded bg-surface/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-[14px] text-primary">location_pin</span>
+<span class="">Nizamabad Central Hub</span>
+</div>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span class="">Self-pickup or field towing</span>
+<a class="text-primary font-bold text-label-sm font-label-sm hover:underline" href="#">Get Directions</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column (4 cols): Sticky Booking & Checkout Configuration -->
+<div class="lg:col-span-4 flex flex-col gap-space-lg lg:sticky lg:top-24">
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-md flex flex-col gap-space-md border border-surface-variant/40">
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-variant"><h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">Rental Reservation</h2><div class="flex items-center gap-1.5"><span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/50 px-2 py-0.5 rounded-full font-bold">Sample demo calculation</span><span class="font-label-sm text-label-sm text-primary font-bold bg-primary-fixed/60 px-2 py-0.5 rounded-full">Active Window</span></div></div>
+<!-- Config Toggle: Operator Service -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-start gap-space-sm">
+<input checked="" class="mt-1 w-4 h-4 rounded text-primary focus:ring-primary cursor-pointer accent-primary" id="operator-toggle" onchange="toggleOperatorFee(this)" type="checkbox">
+<label class="cursor-pointer" for="operator-toggle">
+<span class="font-title-md text-title-md text-on-surface font-bold block leading-tight">Verified Operator</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block mt-0.5">Include Venkat Rao for expert field plowing &amp; implement alignment</span>
+</label>
+</div>
+<div class="text-right shrink-0">
+<span class="font-label-md text-label-md text-secondary font-bold block">+₹500</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">/ day</span>
+</div>
+</div>
+</div>
+<!-- Schedule Overview Card -->
+<div class="flex flex-col gap-2 p-space-sm rounded-lg bg-surface-container">
+<div class="flex justify-between items-center text-on-surface font-body-sm text-body-sm">
+<span class="text-on-surface-variant">Booking Period:</span>
+<span class="font-semibold">Oct 26 - Oct 28, 2026</span>
+</div>
+<div class="flex justify-between items-center text-on-surface font-body-sm text-body-sm">
+<span class="text-on-surface-variant">Hours Contracted:</span>
+<span class="font-semibold">18 Billable Engine Hours</span>
+</div>
+<div class="flex justify-between items-center text-on-surface font-body-sm text-body-sm">
+<span class="text-on-surface-variant">Delivery Mode:</span>
+<span class="font-semibold text-primary">Farm-Gate Towing (Depot Pickup)</span>
+</div>
+</div>
+<!-- Dynamic Billing Breakdown -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<div class="flex justify-between items-center font-body-sm text-body-sm text-on-surface"><span class="">Base Rental (18 Hours × ₹850)</span><span class="font-semibold">₹15,300</span></div>
+<div class="flex justify-between items-center font-body-sm text-body-sm text-on-surface" id="operator-fee-row"><span class="flex items-center gap-1">Verified Operator (3 days)<span class="material-symbols-outlined text-[14px] text-outline-variant" title="Direct operator service cost">info</span></span><span class="font-semibold" id="operator-amount">₹1,500</span></div>
+<div class="flex justify-between items-center font-body-sm text-body-sm text-on-surface">
+<span class="flex items-center gap-1">
+                Platform Facilitation Fee
+                <span class="text-primary font-bold font-label-sm text-[10px] bg-primary-fixed px-1 rounded">SUBSIDIZED</span>
+</span>
+<span class="text-primary font-bold">FREE</span>
+</div>
+<div class="flex justify-between items-center font-body-sm text-body-sm text-on-surface"><span class="flex items-center gap-1">Refundable Equipment Deposit <span class="material-symbols-outlined text-[14px] text-outline-variant" title="(Held per community rental terms)">info</span></span><span class="font-semibold">₹2,000</span></div>
+<div class="h-px w-full bg-surface-variant my-1"></div>
+<div class="flex justify-between items-baseline">
+<div class="flex flex-col">
+<span class="font-title-md text-title-md text-on-surface font-bold">Total Payable</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Includes refundable deposit</span>
+</div>
+<div class="text-right">
+<span class="font-headline-md text-headline-md text-primary font-bold" id="total-payable-text">₹18,800</span>
+</div>
+</div>
+</div>
+<!-- Trust & Agronomic Insurance Callout -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-2"><span class="material-symbols-outlined text-primary text-[20px] shrink-0 mt-0.5">verified_user</span><div class="flex flex-col gap-0.5 font-body-sm text-body-sm text-on-surface-variant"><span class="font-bold text-on-surface text-label-md">Transparent Rental Terms</span><p class="">AgriRent Safety: Review equipment details, rental terms, and operator requirements before confirmation.</p></div></div>
+<!-- Actions -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<button class="w-full py-3.5 px-space-md rounded-lg bg-primary-container text-on-primary font-title-md text-title-md hover:bg-tertiary-container transition-all shadow-md active:scale-[0.99] flex items-center justify-center gap-2" onclick="triggerBookingModal()" type="button">
+<span class="material-symbols-outlined text-[20px]">assignment_turned_in</span>
+              Confirm Booking Request
+            </button>
+<button class="w-full py-2.5 px-space-md rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg transition-colors flex items-center justify-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-[18px]">event_repeat</span>
+              Check Other Dates
+            </button>
+</div>
+<div class="text-center font-label-sm text-label-sm text-on-surface-variant">
+            No cancellation fee up to 24 hours prior to field dispatch.
+          </div>
+</div>
+<!-- Help & Advisory Support Card -->
+<div class="p-space-md rounded-xl bg-surface-container flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="p-2 rounded-full bg-surface-container-lowest text-primary">
+<span class="material-symbols-outlined text-[20px]">support_agent</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-bold">Have Questions?</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Talk with a local agronomist</span>
+</div>
+</div>
+<a class="px-3 py-1.5 rounded-lg bg-surface-container-lowest text-primary font-label-md text-label-md font-semibold hover:bg-surface-bright transition-colors shadow-sm" href="#">AgriRent Support</a>
+</div>
+</div>
+</div>
+<!-- Customer Reviews & Field Reliability -->
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col gap-space-md mt-space-sm">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-2 pb-space-sm border-b border-surface-variant">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold">Farmer Experiences &amp; Field Logs</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Verified post-lease feedback from regional cultivators</p>
+</div>
+<div class="flex items-center gap-2">
+<span class="font-headline-md text-headline-md text-on-surface font-bold">4.9</span>
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">(56 Reviews)</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Review 1 -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col justify-between gap-space-sm">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface font-bold">Suresh Goud</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Paddy Ploughing • Oct 14</span>
+</div>
+<div class="flex text-secondary text-[16px]">
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="material-symbols-outlined text-[16px]">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              "The 5310 has tremendous pull power. Venkat delivered the tractor on time with full diesel. We completed 12 acres of wetland puddle prep without any engine lag."
+            </p>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold">Verified Booking #AR-8902</span>
+</div>
+<!-- Review 2 -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col justify-between gap-space-sm">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface font-bold">Mallesh K.</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Cotton Tillage • Sep 29</span>
+</div>
+<div class="flex text-secondary text-[16px]">
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="material-symbols-outlined text-[16px]">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              "I took the machine along with Venkat as operator. His experience saved us nearly 15 liters of diesel by maintaining optimal gear RPM throughout the 8 hours."
+            </p>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold">Verified Booking #AR-8419</span>
+</div>
+<!-- Review 3 -->
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col justify-between gap-space-sm">
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-title-md text-title-md text-on-surface font-bold">Anitha Reddi</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Soybean Harrowing • Sep 18</span>
+</div>
+<div class="flex text-secondary text-[16px]">
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="material-symbols-outlined text-[16px]">star</span>
+<span class="material-symbols-outlined text-[16px]">star</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              "Tractor was immaculate, tires had great bite on wet loamy ground. The 3-point linkage accommodated our own disk harrow seamlessly."
+            </p>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-bold">Verified Booking #AR-8114</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Booking Confirmation Success Modal -->
+<div class="fixed inset-0 z-50 flex items-center justify-center p-space-md bg-inverse-surface/40 backdrop-blur-sm hidden" id="confirmation-modal">
+<div class="bg-surface-container-lowest max-w-lg w-full rounded-2xl p-space-xl shadow-xl flex flex-col gap-space-md border border-surface-variant animate-in fade-in zoom-in-95 duration-200">
+<div class="w-16 h-16 rounded-full bg-primary-fixed text-primary flex items-center justify-center mx-auto shadow-sm">
+<span class="material-symbols-outlined text-[36px]">check_circle</span>
+</div>
+<div class="text-center flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">Reservation Confirmed</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold">Booking Successful!</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Order <strong>#AR-9402</strong> has been reserved. Owner <strong>Venkat Rao</strong> has been notified and will coordinate equipment transfer.
+        </p>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-2">
+<div class="flex justify-between text-body-sm text-on-surface">
+<span class="text-on-surface-variant">Equipment:</span>
+<span class="font-bold">John Deere 5310 (55 HP)</span>
+</div>
+<div class="flex justify-between text-body-sm text-on-surface">
+<span class="text-on-surface-variant">Duration:</span>
+<span class="font-semibold">26 Oct - 28 Oct 2026</span>
+</div>
+<div class="flex justify-between text-body-sm text-on-surface">
+<span class="text-on-surface-variant">Pickup Depot:</span>
+<span class="font-semibold">Armoor Road Hub, Nizamabad</span>
+</div>
+<div class="flex justify-between text-body-sm text-on-surface">
+<span class="text-on-surface-variant">Total Amount:</span>
+<span class="font-bold text-primary" id="modal-total-display">₹18,800</span>
+</div>
+</div>
+<div class="flex flex-col sm:flex-row gap-space-sm pt-space-xs">
+<button class="flex-1 py-3 px-space-md rounded-lg bg-primary text-on-primary font-title-md text-title-md hover:bg-tertiary transition-colors shadow-sm text-center" onclick="closeBookingModal()" type="button">
+          View Reservation Pass
+        </button>
+<button class="py-3 px-space-md rounded-lg bg-surface-container text-on-surface font-label-lg text-label-lg hover:bg-surface-container-high transition-colors text-center" onclick="closeBookingModal()" type="button">
+          Close
+        </button>
+</div>
+<div class="text-center font-label-sm text-label-sm text-on-surface-variant flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">sms</span>
+        SMS &amp; WhatsApp voucher sent to registered mobile
+      </div>
+</div>
+</div>
+<!-- Inline Micro-Interaction Script -->
+<script>
+    function toggleOperatorFee(checkbox) {
+      const operatorRow = document.getElementById('operator-fee-row');
+      const totalDisplay = document.getElementById('total-payable-text');
+      const modalTotalDisplay = document.getElementById('modal-total-display');
+      
+      const base = 15300;
+      const deposit = 2000;
+      const operatorCost = 1500;
+
+      if (checkbox.checked) {
+        operatorRow.style.display = 'flex';
+        const total = base + deposit + operatorCost;
+        totalDisplay.innerText = '₹' + total.toLocaleString('en-IN');
+        if (modalTotalDisplay) modalTotalDisplay.innerText = '₹' + total.toLocaleString('en-IN');
+      } else {
+        operatorRow.style.display = 'none';
+        const total = base + deposit;
+        totalDisplay.innerText = '₹' + total.toLocaleString('en-IN');
+        if (modalTotalDisplay) modalTotalDisplay.innerText = '₹' + total.toLocaleString('en-IN');
+      }
+    }
+
+    function triggerBookingModal() {
+      const modal = document.getElementById('confirmation-modal');
+      if (modal) {
+        modal.classList.remove('hidden');
+      }
+    }
+
+    function closeBookingModal() {
+      const modal = document.getElementById('confirmation-modal');
+      if (modal) {
+        modal.classList.add('hidden');
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl py-space-xl"><div class="max-w-[1440px] mx-auto px-margin"><div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-space-lg pb-space-lg"><div class="flex flex-col gap-1"><div class="flex items-center gap-space-xs"><img alt="Brand logo. - Primary color: #1b5e20
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1V8_kEDh7Tvhd481lRW203GIdijKLtbe-NNM0InaHG3L4X71lBT65v-0F_nfv4mb-lOzY9735vUKkZylye1KnJBv8idKVu8oefc-5jcz7JJ9vTueZtMKRcXvyFaLyVuoSvWXiCPhlOVFKxQOQ3WsgHGvbYNJnmJ1431hgTHAxUc1K4tm4jSDASVCVJvoYtKfcEA86_G-HnZMCSudAI4apqwkhRK5rZrIJMT1mLmdf0YE5zzW1Y7C4UWjDs"><span class="font-headline-sm text-headline-sm text-primary">AgriRent</span></div><span class="font-body-sm text-body-sm text-on-surface-variant">Sustainable Agronomic Resource Sharing</span></div><div class="flex flex-wrap items-center gap-space-md font-label-md text-label-md text-on-surface-variant"><a class="hover:text-primary transition-colors" data-path="safety" href="#">AgriRent Safety</a><a class="hover:text-primary transition-colors" data-path="policy" href="#">Rental Policy</a><a class="hover:text-primary transition-colors" data-path="registry" href="#">Rental Terms &amp; Safety</a><div class="flex items-center gap-1 text-primary font-semibold"><span class="material-symbols-outlined text-[16px]">call</span><span class="">AgriRent Support (1800-247-4736)</span></div></div></div><div class="pt-space-md text-center md:text-left font-label-sm text-label-sm text-on-surface-variant">© 2026 AgriRent</div></div></footer>
+
+
+
+</body></html>
